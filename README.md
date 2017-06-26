@@ -17,7 +17,7 @@ This app uses Vue.js, Spring Boot, Git, Npm and Webpack
 ```
 app
 ├── api： Spring boot project, which provides rest api service.
-├── web: UI module for website. Which make engineers developer UI without backend. [webpack structure](https://webpack.js.org/)
+├── web: UI module for website with vue webpack. 
 ├── adminweb: UI module for admin web. To be implement.
 ├── common: common module. To be implement.
 ├── gen: code generator module. To be implement.
