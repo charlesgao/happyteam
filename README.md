@@ -12,29 +12,52 @@ This app uses Vue.js, Spring Boot, Git, Npm and Webpack
 * [webpack](https://webpack.js.org/)
 * [git](https://git-scm.com/)
 
-# Folders and Files
-* api: Spring boot project, which provides rest api service.
-   * src java source code and resource files
-   * pom.xml
-* web: Webpack project with vue 2, which provides web UI.
-   * build: Webpack specific folder lets us setup the build environment using files such as running ```npm build [dev|prod]```
-      * build.js
-      * dev-client.js
-      * dev-server.js
-      * utils.js
-      * webpack.base.conf.js
-      * webpack.dev.conf.js
-      * webpack.prod.conf.js
-   * config: Configuration for environments
-      * dev.env.js
-      * index.js
-      * prod.env.js
-      * test.env.js
-   * src: Where are source code lives
-   * .babelrc: Babel specific used in webpack to turn es2015/es2016 code to ES5 code for older browsers to use
-   * .gitignore: Specify files in here for git to ignore
-   * package.json: Frontend dependency manager similar to pom.xml but for managing javascript apps
-   * pom.xml: Java backend dependency management
+## Folders and Files
+### module structure
+app
+├── api： Spring boot project, which provides rest api service.
+├── web: UI module for website. Which make engineers developer UI without backend. [webpack structure](https://webpack.js.org/)
+├── adminweb: UI module for admin web. To be implement.
+├── common: common module. To be implement.
+├── gen: code generator module. To be implement.
+
+### web project structure.
+app
+├── web
+│	├── build： web pack build script
+│	 	├── build.js
+│	 	├── dev-client.js
+│	 	├── dev-server.js
+│		├── utils.js
+│		├── webpack.base.conf.js
+│		├── webpack.dev.conf.js
+│		├── webpack.prod.conf.js
+│	├── config： Configuration for environments
+│	 	├── dev.env.js
+│	 	├── index.js
+│	 	├── prod.env.js
+│	 	├── test.env.js
+│	├── node：  maven plugin will install node here.
+│	├── node_modules：  npm dependencies. Will download once you run npm install.
+│	├── src
+│	 	├── assets： image videos audios etc.
+│	 	├── components： vue components
+│	 	├── router： vue router
+│	 	├── App.vue： main vue instance.
+│	 	├── main.js： application enterence.
+│	├── static
+│	 	├── css
+│	 	├── fonts
+│	 	├── less
+│	 	├── scss
+│	├── test webpack automation testing forlder
+│	├── .babelrc: Babel specific used in webpack to turn es2015/es2016 code to ES5 code for older browsers to use
+│	├── .editorconfig：webstorm IDE configuration
+│	├── .gitignore: Specify files in here for git to ignore
+│	├── package.json: Frontend dependency manager similar to pom.xml but for managing javascript apps
+│	├── pom.xml web module build dependency management
+├── pom.xml parent build dependency management
+
 
 ## NPM Registry Setup
 ```
