@@ -1,34 +1,38 @@
 # happyteam
-Fast development framework with java  
+Fast development framework with java, vue, springboot
 
 ## 
 
 This app uses Vue.js, Spring Boot, Git, Npm and Webpack
 
-* [vue](https://vuejs.org/)
+* [vue 2](https://vuejs.org/)
 * [spring boot](https://spring.io/guides/gs/spring-boot/)
 * [webpack](https://webpack.js.org/)
 * [git](https://git-scm.com/)
 
 # Folders and Files
-* build: Webpack specific folder lets us setup the build environment using files such as running ```npm build [dev|prod]```
-   * build.js
-   * dev-client.js
-   * dev-server.js
-   * utils.js
-   * webpack.base.conf.js
-   * webpack.dev.conf.js
-   * webpack.prod.conf.js
-* config: Configuration for environments
-   * dev.env.js
-   * index.js
-   * prod.env.js
-   * test.env.js
-* src: Where are source code lives
-* .babelrc: Babel specific used in webpack to turn es2015/es2016 code to ES5 code for older browsers to use
-* .gitignore: Specify files in here for git to ignore
-* package.json: Frontend dependency manager similar to pom.xml but for managing javascript apps
-* pom.xml: Java backend dependency management
+* api: Spring boot project, which provides rest api service.
+   * src java source code and resource files
+   * pom.xml
+* web: Webpack project with vue 2, which provides web UI.
+   * build: Webpack specific folder lets us setup the build environment using files such as running ```npm build [dev|prod]```
+      * build.js
+      * dev-client.js
+      * dev-server.js
+      * utils.js
+      * webpack.base.conf.js
+      * webpack.dev.conf.js
+      * webpack.prod.conf.js
+   * config: Configuration for environments
+      * dev.env.js
+      * index.js
+      * prod.env.js
+      * test.env.js
+   * src: Where are source code lives
+   * .babelrc: Babel specific used in webpack to turn es2015/es2016 code to ES5 code for older browsers to use
+   * .gitignore: Specify files in here for git to ignore
+   * package.json: Frontend dependency manager similar to pom.xml but for managing javascript apps
+   * pom.xml: Java backend dependency management
 
 ## NPM Registry Setup
 ```
