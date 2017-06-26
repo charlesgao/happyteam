@@ -1,0 +1,239 @@
+.par-sys {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.par-sys .section-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  margin-bottom: 2em;
+}
+
+.offers-and-destinations .recommend-header {
+  margin: 0 0 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.offers-and-destinations .recommend-header .description-multiple-origins {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.375em;
+  font-family:sans-serif,'Raleway';
+}
+
+
+.offers-and-destinations .promotion::before, .offers-and-destinations .promotion::after {
+  content: " ";
+  display: table;
+}
+
+.offers-and-destinations .promotion::after {
+  clear: both;
+}
+
+.offers-and-destinations .promotion {
+  width: 100%;
+}
+
+.offers-and-destinations .promotion .primary-promotion .description {
+  width: 38%;
+  float: left;
+}
+
+.offers-and-destinations .promotion .primary-promotion {
+  margin-bottom: 2em;
+  position: relative;
+  list-style: outside none none;
+  padding-left: 0;
+}
+
+.offers-and-destinations .promotion .primary-promotion .destination {
+  color: #4c4c4c;
+  font-weight: normal;
+  line-height: inherit;
+  margin: 0 0 0.875em;
+}
+
+.offers-and-destinations .promotion .primary-promotion .cover {
+  width: 62%;
+  border-radius: 0;
+  float: left;
+  margin: 0;
+}
+
+.offers-and-destinations .promotion .primary-promotion .destination .country {
+  font-size: 1.75em;
+  line-height: 1;
+}
+
+.offers-and-destinations .promotion .primary-promotion .item .group .call-to-action {
+  color: #c2262e;
+  font-family: 'Raleway',sans-serif;
+  line-height: 1.2;
+  padding: 0.3em 0;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  font-weight: bold;
+}
+
+.offers-and-destinations .promotion .primary-promotion .type {
+  color: #0f748f;
+  font-family: "Raleway",sans-serif;
+  line-height: 1.2;
+  font-size: 1.25em;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.offers-and-destinations .promotion .primary-promotion .price {
+  color: #0f748f;
+  font-family: "Raleway",sans-serif;
+  line-height: 1.2;
+  display: inline-block;
+}
+
+.offers-and-destinations .promotion .primary-promotion .miscellenous{
+  list-style: outside none none;
+  font-family: "Raleway",sans-serif;
+  font-size: 1em;
+  margin-top: 0.5em;
+}
+
+.offers-and-destinations .promotion .primary-promotion .link::before {
+  border-top: 1px solid #c6c2c1;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.offers-and-destinations .promotion .primary-promotion .link {
+  margin-top:2em;
+}
+
+.offers-and-destinations .promotion .primary-promotion .link .explore-destination {
+  border: 0 none;
+  display: inline-block;
+  font-size: 1em;
+  margin-top: 0.9em;
+  padding: 0;
+  text-align: left;
+  color: #0f748f;
+  text-decoration: none;
+}
+
+.offers-and-destinations .promotion .primary-promotion .item .group .re-icon {
+  background: #3391a2 none repeat scroll 0 0;
+  border: 2px solid #3391a2;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  left: -1.7em;
+  top: 0.15em;
+  font-size: 2.5em;
+}
+
+.boat_types {
+  margin-bottom: 70px;
+}
+
+.boat-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.boat_types .type {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+}
+
+.boat-col{
+  width: 25%;
+  float: left;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.boat_types .type a {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  padding: 330px 35px 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.boat_types .sail {
+  background: rgba(0, 0, 0, 0) url("../../src/assets/sail.jpg") no-repeat scroll 50% 50% / cover ;
+}
+
+.boat_types .sail:hover {
+  background: rgba(255, 255, 0, 0) url("../../src/assets/sail.jpg") no-repeat scroll 55% 50% / cover ;
+}
+
+.boat_types .cata {
+  background: rgba(0, 0, 0, 0) url("../../src/assets/cata.jpg") no-repeat scroll 50% 50% / cover ;
+}
+
+.boat_types .cata:hover {
+  background: rgba(0, 0, 0, 0) url("../../src/assets/cata.jpg") no-repeat scroll 55% 50% / cover ;
+}
+
+
+.boat_types .motor {
+  background: rgba(0, 0, 0, 0) url("../../src/assets/motor.jpg") no-repeat scroll 50% 50% / cover ;
+}
+
+.boat_types .motor:hover {
+  background: rgba(0, 0, 0, 0) url("../../src/assets/motor.jpg") no-repeat scroll 55% 50% / cover ;
+}
+
+.boat_types .gulet {
+  background: rgba(0, 0, 0, 0) url("../../src/assets/gulet.jpg") no-repeat scroll 50% 50% / cover ;
+}
+
+.boat_types .gulet:hover {
+  background: rgba(0, 0, 0, 0) url("../../src/assets/gulet.jpg") no-repeat scroll 55% 50% / cover ;
+}
+
+.boat_types .type span {
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  overflow-wrap: normal;
+  padding: 15px 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+
+.boat_types .type span:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 0;
+  color: #24BFB4;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  overflow-wrap: normal;
+  padding: 15px 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}

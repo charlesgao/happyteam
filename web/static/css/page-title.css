@@ -1,0 +1,72 @@
+.guide-intro-destination {
+  background-color: #eee;
+  background-image: url("../../src/assets/yacht-guide.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.guide-intro-boat {
+  background-color: #eee;
+  background-image: url("../../src/assets/yacht-driver.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.guide-intro-vacation {
+  background-color: #eee;
+  background-image: url("../../src/assets/yacht-vacation.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.page-title-container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: table;
+}
+
+
+.page-title-wrapper {
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.page-title-wrapper h1 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.title-masker {
+  background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+  color: #fff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.title-intro {
+  font-size: 16px;
+  margin: 0;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.guide-intro-border {
+  border-bottom: 3px solid #fff;
+  display: block;
+  margin: 20px 0;
+  width: 150px;
+}

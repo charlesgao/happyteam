@@ -1,0 +1,123 @@
+.travel-alert-container {
+  background-color: #ebedec;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  touch-action: pan-y;
+}
+
+.travel-alert-container .summary-panel {
+  margin: 0 auto;
+  padding: 0.1em 0;
+  width: 960px;
+  position: relative;
+  display: block;
+  height: 2em;
+}
+
+.travel-alert-container .summary-panel a{
+  color: #0f748f;
+  text-decoration: none;
+}
+
+.travel-alert-container .medium, .travel-alert-container .high {
+  background-color: #4c4c4c;
+  color: #fed700;
+  float: left;
+  font-size: 2.05em;
+  margin: 0.06em 0.5em 0 0;
+}
+
+.travel-alert-container .caption {
+  color: #0f748f;
+  font-size: 0.875em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.travel-alert-container .summary-panel .timestamp {
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 0.05em;
+  margin: 0.6em 0 0 2em;
+  color: #4c4c4c;
+  font-size: 0.85em;
+}
+
+.travel-alert-container .summary-panel .travel-alert-trigger {
+  background-color: #ebedec;
+  color: #0f748f;
+  font-size: 7px;
+  position: absolute;
+  right: 12px;
+  top: 40%;
+}
+
+.travel-alert-container .message-items li::before {
+  content: none;
+}
+
+ul > li::before {
+  color: #8e8573;
+  content: "•";
+  font-size: 1.385em;
+  left: 0;
+  position: absolute;
+  top: -4px;
+}
+
+.travel-alert-container .message-items li {
+  border-top: 1px solid #fff;
+  padding: 0;
+}
+
+.travel-alert-container .message-items li .msg-item {
+  margin: 0 auto;
+  width: 960px;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  padding: 0.1em 0;
+  position: relative;
+}
+
+.travel-alert-container .caption {
+  color: #0f748f;
+  font-size: 0.875em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.travel-alert-container .caption a{
+  color: #0f748f;
+  text-decoration: none;
+}
+
+.travel-alert-container .message-items li .msg-item::before, .travel-alert-container .message-items li .msg-item::after {
+  content: " ";
+  display: table;
+}
+
+.travel-alert-container .message-items li .msg-item::after {
+  clear: both;
+}
+
+.travel-alert-container .message-items li .msg-item::before, .travel-alert-container .message-items li .msg-item::after {
+  content: " ";
+  display: table;
+}
+
+.travel-alert-container .message-items li .msg-item .caption {
+  width: 60%;
+}
+
+.travel-alert-container .message-items li .msg-item .timestamp {
+  font-size: 0.875em;
+  left: auto;
+  right: 0;
+  top: 0.2em;
+  position: absolute;
+}
+

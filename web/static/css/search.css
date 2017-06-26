@@ -1,0 +1,488 @@
+.book-trip-panel {
+  padding: 0;
+  position: relative;
+  z-index: 2;
+  background: #ebedec none repeat scroll 0 0;
+  margin-bottom: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: none;
+}
+
+.book-trip::before, .book-trip::after {
+  content: " ";
+  display: table;
+}
+
+.book-trip::after {
+  clear: both;
+}
+
+.book-trip {
+  margin: 0 auto;
+  padding: 1.125rem 0 2rem;
+  width: 960px;
+}
+
+.book-trip.travel-only .travel-booking-panel {
+  border-top: 0 none;
+  padding-top: 0;
+}
+
+.book-trip .error-message-container, .book-trip .error-message-container-medium-up {
+  margin: -2px -2px 4px;
+}
+
+.book-trip .error-message-container-medium-up {
+  clear: left;
+  display: block;
+  padding: 2px 2px 0;
+}
+
+.book-trip .book-trip-title {
+  list-style: outside none none;
+  margin-bottom: 1.15rem;
+  width: auto;
+  border-left: 1px solid #d7d7d7;
+  padding: 0 1.25rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f748f;
+  font-family: "Raleway",sans-serif;
+}
+
+.book-trip.travel-only .book-trip-basicinfo::before, .book-trip.travel-only .book-trip-basicinfo::after {
+  content: " ";
+  display: table;
+}
+
+.book-trip .book-trip-basicinfo::before, .book-trip .book-trip-basicinfo::after {
+  content: " ";
+  display: table;
+}
+
+.book-trip .book-trip-extrainfo::before, .book-trip .book-trip-extrainfo::after {
+  content: " ";
+  display: table;
+}
+
+.book-trip .book-trip-basicinfo {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.book-trip .book-trip-extrainfo {
+  float: left;
+  width: 100%;
+}
+
+.book-trip.travel-only .panel-open .book-trip-extras {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+.book-trip .book-trip-extras, .book-trip .book-trip-extras-medium-up {
+  list-style: outside none none;
+  margin-bottom: 1.15rem;
+  padding: 0;
+  width: auto;
+}
+
+ul > li::before {
+  color: #8e8573;
+  content: "•";
+  font-size: 1.385em;
+  left: 0;
+  position: absolute;
+  top: -4px;
+}
+
+.book-trip .book-trip-extras li.trip-redeem, .book-trip .book-trip-extras-medium-up li.trip-redeem {
+  border-left: 1px solid #d7d7d7;
+  padding: 0 1.25rem;
+}
+
+.book-trip .book-trip-extras li, .book-trip .book-trip-extras-medium-up li {
+  display: inline-block;
+  padding: 0 1.125rem 0 0;
+}
+
+.book-trip .book-trip-basicinfo .destination, .book-trip .book-trip-basicinfo .depart-date, .book-trip .book-trip-basicinfo .trip-passengers-wrapper {
+  float: left;
+  width: 33%;
+}
+
+.book-trip .book-trip-basicinfo .depart-date {
+  float: left;
+  width: 33%;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+
+.book-trip .destination, .book-trip .trip-passengers-wrapper, .book-trip .trip-package-wrapper{
+  padding-right: 2px;
+  box-sizing: border-box;
+  float: left;
+  min-width: 13em;
+  position: relative;
+  width: 30%;
+  padding-left: 2px;
+}
+
+.book-trip .book-trip-basicinfo .rent-type, .book-trip .book-trip-basicinfo .boat-size {
+  float: left;
+  width: 33%;
+}
+
+.book-trip .book-trip-basicinfo .trip-ent-items {
+  float: left;
+  width: 10%;
+}
+
+.book-trip .rent-type, .book-trip .boat-size, .book-trip .trip-ent-items{
+  padding-right: 2px;
+  box-sizing: border-box;
+  float: left;
+  min-width: 13em;
+  position: relative;
+  width: 30%;
+  padding-left: 1px;
+}
+
+.book-trip .book-trip-basicinfo .search-field-group {
+  height: 3.58em;
+  margin: 0;
+  position: relative;
+}
+
+.book-trip form .book-trip-basicinfo .search-field-group .field-label.input-filled, .book-trip form .book-trip-extrainfo .search-field-group .field-label.input-filled{
+  clip: inherit;
+  color: #767676;
+  cursor: inherit;
+  font-size: 0.6857rem;
+  height: auto;
+  left: 0.875rem;
+  overflow: hidden;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0.5rem;
+  width: auto;
+}
+
+.book-trip form .book-trip-basicinfo .search-field-group .field-label, .book-trip form .hotel-destination .search-field-group .field-label, .book-trip form .dates-picker-wrapper .search-field-group .field-label, .book-trip form .package-rooms-wrapper .search-field-group .field-label, .book-trip form .trip-package-wrapper .search-field-group .field-label {
+  border: 0 none;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.book-trip form .book-trip-basicinfo .search-field-group .field-input.input-filled, .book-trip form .hotel-destination .search-field-group .field-input.input-filled, .book-trip form .dates-picker-wrapper .search-field-group .field-input.input-filled, .book-trip form .package-rooms-wrapper .search-field-group .field-input.input-filled, .book-trip form .trip-package-wrapper .search-field-group .field-input.input-filled, .book-trip form .book-trip-basicinfo .search-field-group .field-button.input-filled, .book-trip form .hotel-destination .search-field-group .field-button.input-filled, .book-trip form .dates-picker-wrapper .search-field-group .field-button.input-filled, .book-trip form .package-rooms-wrapper .search-field-group .field-button.input-filled, .book-trip form .trip-package-wrapper .search-field-group .field-button.input-filled {
+  padding-bottom: 0.5em;
+  padding-top: 1.6em;
+  box-sizing: border-box;
+  float: left;
+  min-width: 13em;
+  position: relative;
+  width: 100%;
+}
+
+.book-trip .book-trip-basicinfo .search-field-input {
+  font-size: 0.875rem;
+  height: 3.58em;
+  max-height: 3.58em;
+  padding-left: 0.857em;
+  color: #4c4c4c;
+  text-align: left;
+}
+
+.search-field-group .search-field-input, .ivu-input {
+  -moz-appearance: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #fff none repeat scroll 0 0;
+  border-color: #fff #fff #c6c2c1;
+  border-image: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  height: 50px;
+  line-height: 1.3;
+  margin: 0;
+  padding: 1em 1em .7em 2em;
+  width: 100%;
+}
+
+.search-field-group .ivu-select-selection {
+  -moz-user-select: none;
+  background-color: #fff;
+  border: 1px solid #dddee1;
+  border-radius: 0!important;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  outline: 0 none;
+  position: relative;
+  height: 50px!important;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.input-filled::-webkit-input-placeholder,.ivu-input::-webkit-input-placeholder,.search-field-input::-webkit-input-placeholder {
+  color: #767676;
+  font-size: 0.6857rem;
+}
+.input-filled:-moz-placeholder,.ivu-input:-moz-placeholder,.search-field-input:-moz-placeholder {/* Firefox 18- */
+  color: #767676;
+  font-size: 0.6857rem;
+}
+
+.input-filled::-moz-placeholder,.ivu-input::-moz-placeholder,.search-field-input::-moz-placeholder{/* Firefox 19+ */
+  color: #767676;
+  font-size: 0.6857rem;
+}
+
+.input-filled:-ms-input-placeholder,.ivu-input:-ms-input-placeholder,.search-field-input:-ms-input-placeholder {
+  color: #767676;
+  font-size: 0.6857rem;
+}
+
+input::-moz-placeholder {
+  color: #767676;
+  opacity: 1;
+}
+
+.travel-booking-panel .trip-form .dates-picker-wrapper {
+  width: 54%;
+}
+
+.splited-date-picker {
+  float: left;
+  margin-bottom: 0.5em;
+  overflow: visible;
+  padding-right: 0;
+  position: relative;
+}
+
+.travel-booking-panel .trip-form .dates-picker-wrapper .button-date-picker-wrapper {
+  width: 50%;
+}
+
+.travel-booking-panel .trip-form .dates-picker-wrapper {
+  width: 54%;
+}
+
+.splited-date-picker {
+  float: left;
+  margin-bottom: 0.5em;
+  overflow: visible;
+  padding-right: 0;
+  position: relative;
+}
+
+.travel-booking-panel .trip-form .dates-picker-wrapper .button-date-picker-wrapper {
+  width: 50%;
+}
+
+.splited-date-picker .button-date-picker-wrapper {
+  float: left;
+  padding-right: 2px;
+  position: relative;
+}
+
+.book-trip form .book-trip-basicinfo .search-field-group .field-label.input-filled, .book-trip form .hotel-destination .search-field-group .field-label.input-filled, .book-trip form .dates-picker-wrapper .search-field-group .field-label.input-filled, .book-trip form .package-rooms-wrapper .search-field-group .field-label.input-filled, .book-trip form .trip-package-wrapper .search-field-group .field-label.input-filled {
+  clip: inherit;
+  color: #767676;
+  cursor: inherit;
+  font-size: 0.6857rem;
+  height: auto;
+  left: 0.875rem;
+  overflow: hidden;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0.5rem;
+  width: auto;
+}
+
+.cx-inputfield .field-input, .cx-inputfield .field-button {
+  height: 3.58em;
+  max-height: 3.58em;
+  padding-left: 0.857em;
+}
+
+.dates-picker-wrapper .button-date-picker {
+  float: left;
+  height: 3.58em;
+  margin: 0;
+  max-height: 3.58em;
+  overflow: hidden;
+  padding: 0 0 0 1em;
+  position: static;
+}
+
+.dates-picker-wrapper .button-date-picker {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #fff none repeat scroll 0 0;
+  border-color: #fff #fff #c6c2c1;
+  border-image: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  padding: 1em 3.25em 1em 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.book-trip .button-placeholder {
+  color: #4c4c4c;
+}
+
+.dates-picker-wrapper .button-date-picker {
+  font-size: 0.875em;
+  text-align: left;
+}
+
+.splited-date-picker .button-date-picker-wrapper .button-date-picker .from {
+  border-bottom: 0 none;
+}
+
+.dates-picker-wrapper.splited-date-picker .button-date-picker .from {
+  padding-bottom: 0;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+}
+
+.dates-picker-wrapper .button-date-picker .date-selected {
+  color: #4c4c4c;
+  display: block;
+}
+
+.dates-picker-wrapper .button-date-picker {
+  text-align: left;
+}
+
+.dates-picker-wrapper .button-date-picker .has-date .instruction {
+  display: none;
+}
+
+.dates-picker-wrapper .button-date-picker .has-date .date-full {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.dates-picker-wrapper .button-date-picker {
+  font-size: 0.875em;
+}
+
+.dates-picker-wrapper .button-date-picker {
+  text-align: left;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+}
+
+.book-trip form .book-trip-basicinfo .search-field-group .field-label.input-filled, .book-trip form .hotel-destination .search-field-group .field-label.input-filled, .book-trip form .dates-picker-wrapper .search-field-group .field-label.input-filled, .book-trip form .package-rooms-wrapper .search-field-group .field-label.input-filled, .book-trip form .trip-package-wrapper .search-field-group .field-label.input-filled {
+  clip: inherit;
+  color: #767676;
+  cursor: inherit;
+  font-size: 0.6857rem;
+  height: auto;
+  left: 0.875rem;
+  overflow: hidden;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0.5rem;
+  width: auto;
+}
+
+.dates-picker-wrapper .dates-picker .calendar {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  min-width: 0;
+}
+
+.book-trip .ui-calendar {
+  background: #fff none repeat scroll 0 0;
+  clear: left;
+}
+
+.ui-calendar {
+  padding: 1em 6% 1.5em;
+  width: auto;
+  position: relative;
+}
+
+.book-trip .button-passengers, .book-trip .button-package {
+  height: 3.58em;
+  margin: 0;
+  max-height: 3.58em;
+  padding-left: 0.74rem;
+  width: 100%;
+}
+
+.book-trip .button-passengers, .book-trip .button-package {
+  font-size: 0.875em;
+}
+
+.book-trip .button-passengers, .book-trip .button-package {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #fff none repeat scroll 0 0;
+  border-color: #fff #fff #c6c2c1;
+  border-image: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  text-align: left;
+}
+
+.book-trip .button-submit {
+  float: left;
+  text-align: left;
+  width: 16%;
+  height: 50px;
+  margin: 0 0 0 3px;
+  max-height: 50px;
+  padding: 0 1em;
+  position: relative;
+  background: rgba(0, 0, 0, 0) linear-gradient(to top, #a62128 0px, #cb464d 100%) repeat scroll 0 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 1px 0 0 #c6c2c1;
+  color: #fff;
+  overflow: visible;
+}
+
+.book-trip .button-submit .button-title-large {
+  display: block;
+  float: left;
+  line-height: 1.125rem;
+  margin: 0;
+  overflow: hidden;
+  position: static;
+  width: 90%;
+  font-size: 16px;
+
+
+}

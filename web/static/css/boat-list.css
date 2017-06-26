@@ -1,0 +1,427 @@
+.page-banner {
+  max-height: 550px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 9;
+}
+.page-banner .title {
+  top: 180px;
+}
+
+.banner-inner {
+  height: 100%;
+}
+
+.banner-item-inner {
+  color: #fff;
+  font: 29px/44px "avenir-next-regular",Arial,Helvetica,sans-serif;
+  position: absolute;
+  top: 187px;
+  width: 100%;
+  bottom: 95px;
+}
+
+.banner-inner img {
+  min-height: 251px;
+  min-width: 1400px;
+  width: 100%;
+  vertical-align: middle;
+  border: 0 none;
+}
+
+.img-responsive {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.content-list {
+  width: 75%;
+  float: right;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.sort-bar {
+  background: #ebedec none repeat scroll 0 0;
+  margin-top: 10px;
+  padding: 5px 0;
+  heidht: 40px;
+}
+
+.col-half-left {
+  width: 50%;
+  float: left;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  background: #ebedec;
+  height: 40px;
+}
+
+.col-half-right {
+  width: 50%;
+  float: right;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  background: #ebedec;
+  height: 40px;
+}
+
+.form-inline .form-group {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.sort-bar label {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
+.form-inline .search-sort-select {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
+.text-right {
+  text-align: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.page-count {
+  display: block;
+  padding: 5px 0 0;
+}
+
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder, .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+  display: block;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  padding-left: 8px;
+  padding-right: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder, .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+  display: block;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  padding-left: 8px;
+  padding-right: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+  color: #bbbec4;
+}
+
+.content-list .results {
+  margin-top: 45px;
+  padding: 0;
+}
+
+.results li::after {
+  background: #fff none repeat scroll 0 0;
+  border-bottom: 1px solid #c5c5c5;
+  clear: both;
+  content: "";
+  display: block;
+  float: none;
+  height: 1px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.results li {
+  list-style: outside none none;
+}
+
+.results .boat {
+  display: table;
+  width: 100%;
+  background-color: #ebedec;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.results .boat .image {
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  margin: 0;
+  min-height: 220px;
+  padding: 0;
+}
+
+.col-sm-3 {
+  width: 25%;
+  position: relative;
+}
+
+.results .boat .image .flag {
+  font-size: 14px;
+  font-weight: 500;
+  list-style: outside none none;
+  margin-top: 5px;
+  padding: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.results .boat .image .flag .promo {
+  background: #ff3350 none repeat scroll 0 0;
+  color: #fff;
+  margin-bottom: 2px;
+  padding: 2px 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.results .boat .info {
+  background: #fff none repeat scroll 0 0;
+}
+
+.results .boat .info .model b {
+  display: block;
+  font-size: 16px;
+}
+
+.results .boat .info .model span {
+  color: #808080;
+  display: block;
+  font-size: 14px;
+}
+
+.results .boat .info .specs::after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+}
+
+.results .boat .info .specs {
+  display: block;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.results .boat .info {
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+}
+
+.col-sm-6 {
+  width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.results .boat .info .specs .m {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #c5c5c5;
+  display: block;
+  float: left;
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+  padding: 1px 2px 2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 48px;
+}
+
+.results .boat .info .specs .m span {
+  background: rgba(0, 0, 0, 0) url("../../src/assets/legend2.png") no-repeat scroll 0 0 / 285px 28px;
+  border-bottom: 1px solid #c5c5c5;
+  display: block;
+  height: 32px;
+  margin: 2px;
+  overflow: hidden;
+  text-indent: 50px;
+  width: 40px;
+}
+
+.results .boat .info .specs .m .cab {
+  background-position: -123px 0;
+}
+
+.results .boat .info .specs .m .ber {
+  background-position: -41px 0;
+}
+
+.results .boat .info .specs .m .mot {
+  background-position: -82px 0;
+}
+
+.results .boat .info .specs .m .dra {
+  background-position: -163px 0;
+}
+
+.results .boat .info .specs .m .len {
+  background-position: -203px 0;
+}
+
+.results .boat .info .pluses::after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+.results .boat .info .pluses .item:first-child {
+  border-left: 0 none;
+  padding-left: 0;
+}
+
+.results .boat .info .pluses .item {
+  border-left: 1px solid #eaeaea;
+  color: #424242;
+  float: left;
+  font-size: 12px;
+  font-weight: 500;
+  height: 28px;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  margin-bottom: 6px;
+  padding: 0 10px;
+}
+
+.results .boat .price .view-detail {
+  font-size: 12px;
+  font-weight: 500;
+  hyphens: none;
+  margin: 6px 0;
+  overflow-wrap: normal;
+  text-transform: uppercase;
+  white-space: normal;
+  word-break: normal;
+  text-align: center;
+  -moz-user-select: none;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  touch-action: manipulation;
+  vertical-align: middle;
+  padding: 6px 12px;
+  background: #24BFB4;
+  border-color: #24BFB4;
+  color: #fff;
+}
+
+.col-sm-3 {
+  width: 25%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.results .boat .price .op {
+  color: #808080;
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0;
+  text-decoration: line-through;
+}
+
+.results .boat .price .p {
+  color: #ff3350;
+  display: block;
+  font-size: 22px;
+}
+
+.results .boat .price {
+  background: #eaeaea none repeat scroll 0 0;
+  min-height: 170px;
+  padding: 25px 0;
+}
+
+.results .boat .price {
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+}
+
+.results .boat .price .favorite {
+  color: #808080;
+  cursor: pointer;
+  float: right;
+  font-size: 18px;
+  margin: -20px 5px 0 0;
+  opacity: 0.5;
+}
+
+.results .boat .price .period {
+  color: #808080;
+  display: block;
+  text-align: center;
+}
+
+.bottom_pagination {
+  background: #ebedec none repeat scroll 0 0;
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 50px;
+}
+
+.pager {
+  list-style: outside none none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.pager li {
+  display: inline;
+  list-style: outside none none;
+}
+
+.pager .previous > a, .pager .previous > span {
+  list-style: outside none none;
+  float: left;
+}
+
+.pager li > a, .pager li > span {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 5px 14px;
+  font-size: 14px;
+}
+
+.pager .next > a, .pager .next > span {
+  list-style: outside none none;
+  float: right;
+}
