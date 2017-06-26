@@ -1,6 +1,8 @@
 # happyteam
 Fast development framework with java, vue, springboot
 
+The project starter refer to Randy Yang's Git Project.  [SpringVue-Starter](https://gitlab.com/randyyaj/SpringVue-Starter). Thank Randy very much.
+
 ## 
 
 This app uses Vue.js, Spring Boot, Git, Npm and Webpack
