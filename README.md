@@ -14,14 +14,16 @@ This app uses Vue.js, Spring Boot, Git, Npm and Webpack
 
 ## Folders and Files
 ### module structure
+```
 app
 ├── api： Spring boot project, which provides rest api service.
 ├── web: UI module for website. Which make engineers developer UI without backend. [webpack structure](https://webpack.js.org/)
 ├── adminweb: UI module for admin web. To be implement.
 ├── common: common module. To be implement.
 ├── gen: code generator module. To be implement.
-
+```
 ### web project structure.
+```
 app
 ├── web
 │	├── build： web pack build script
@@ -57,7 +59,7 @@ app
 │	├── package.json: Frontend dependency manager similar to pom.xml but for managing javascript apps
 │	├── pom.xml web module build dependency management
 ├── pom.xml parent build dependency management
-
+```
 
 ## NPM Registry Setup
 ```
