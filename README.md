@@ -1,7 +1,7 @@
 # happyteam
 Fast development framework with java, vue, springboot
 
-The project starter refer to Randy Yang's Git Project.  [SpringVue-Starter](https://gitlab.com/randyyaj/SpringVue-Starter). Thank Randy very much.
+The project starter refers to Randy Yang's Git Project.  [SpringVue-Starter](https://gitlab.com/randyyaj/SpringVue-Starter). Thanks Randy very much.
 
 ## 
 
