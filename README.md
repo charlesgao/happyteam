@@ -1,6 +1,5 @@
-HappyTeam 是一款快速JAVA开始框架，她使用到了的技术有Vue, Spring Boot, Webpack
-
-## 
+## 介绍
+HappyTeam 是一款快速JAVA开始框架，她使用到了的技术有Vue, Spring Boot, Webpack, Git她会大大减少程序员的开发工作员，提升开发效率70%以上，让更多的开发人员可以有时间跟家人团聚
 
 * [vue 2](https://vuejs.org/)
 * [spring boot](https://spring.io/guides/gs/spring-boot/)
