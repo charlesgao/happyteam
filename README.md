@@ -2,14 +2,12 @@ HappyTeam 是一款快速JAVA开始框架，她使用到了的技术有Vue, Spri
 
 ## 
 
-This app uses Vue.js, Spring Boot, Git, Npm and Webpack
-
 * [vue 2](https://vuejs.org/)
 * [spring boot](https://spring.io/guides/gs/spring-boot/)
 * [webpack](https://webpack.js.org/)
 * [git](https://git-scm.com/)
 
-## Folders and Files
+## 文件及目录结构
 ### module structure
 ```
 app
