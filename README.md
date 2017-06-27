@@ -1,7 +1,4 @@
-# happyteam
-Fast development framework with java, vue, springboot
-
-The project starter refers to Randy Yang's Git Project.  [SpringVue-Starter](https://gitlab.com/randyyaj/SpringVue-Starter). Thanks Randy very much.
+HappyTeam 是一款快速JAVA开始框架，她使用到了的技术有Vue, Spring Boot, Webpack
 
 ## 
 
