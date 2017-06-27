@@ -9,17 +9,18 @@ HappyTeam 是一款快速JAVA开始框架，她使用到了的技术有Vue, Spri
 ## 文件及目录结构
 ### module structure
 ```
-app
-├── api： Spring boot project, which provides rest api service.
-├── web: UI module for website with vue webpack. 
-├── adminweb: UI module for admin web. To be implement.
-├── common: common module. To be implement.
-├── gen: code generator module. To be implement.
+project
+├── api： 提供给外部调用的接口或服务，如手机端接口或其他第三方系统调用接口。
+├── common: 公共模块.
+├── task: 任务调度模块. 
+├── gen: 代码生成器.
+├── web: 网站的前台页面模块. 
+├── adminweb: 后台管理模块.
 ```
 ### web project structure.
 ```
-app
-├── web
+project
+├── adminweb
 │	├── build： web pack build script
 │	 	├── build.js
 │	 	├── dev-client.js
